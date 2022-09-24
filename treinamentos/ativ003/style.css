@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em normal arial, helvetica, sans-serif;
+    background-color: rgb(166, 101, 226);
+    
+}
+a{
+  color: rgb(62, 0, 138);
+  text-decoration: none;  
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-shadow:5px 5px 15px blue ;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(30, 2, 56);
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    
+
+}
+h2{
+    font-style: italic;
+    color: rgb(154, 97, 207);
+}
+
+
+
+
+.titulo{
+    text-align: center;
+    color:rgb(62, 0, 138) ;
+    
+}
+#principal{
+    text-shadow: 5px 5px 15px purple;
+}
+h2.primeiro > p{
+    display:none;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
